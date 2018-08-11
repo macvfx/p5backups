@@ -16,7 +16,7 @@ backup_path = "/Volumes/Backups/aw-nightly-bkup/"
 
 # check to see if nsd is already running, if it is lets throw a flag
 nr = 0 # our flag
-if(commands.getoutput('pgrep nsd') == ""):
+if(commands.getoutput('ps aux |grep “ns[d] -u root”') == ""):
 	print "P5 is not running"
 	nr = 1
 
