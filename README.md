@@ -5,8 +5,8 @@ Original script published here [http://provideotech.org/automatically-backing-up
 Need to add logging and other features 
 
 - logging
-- talk to watchman
-- make sure server is backup
+
+- make sure server is back up and running
 
 # P5 Server backup
 
